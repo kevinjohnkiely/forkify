@@ -11,8 +11,6 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 
-alert('Hello world')
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
